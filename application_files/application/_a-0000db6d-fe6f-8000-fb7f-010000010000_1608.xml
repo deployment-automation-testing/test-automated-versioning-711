@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <application>
         <name>Test Application - No DDL</name>
         <uuid>_a-0000db6d-fe6f-8000-fb7f-010000010000_1608</uuid>
