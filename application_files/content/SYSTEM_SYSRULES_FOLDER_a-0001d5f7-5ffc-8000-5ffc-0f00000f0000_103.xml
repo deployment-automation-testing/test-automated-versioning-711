@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <rulesFolder>
-        <name>Records</name>
-        <uuid>_a-0000d552-52d7-8000-4b9d-010000010000_614</uuid>
-        <description></description>
-        <parentUuid>_a-0000d516-ce42-8000-11d1-010000010000_542</parentUuid>
+        <name>com.appian.ui.validation</name>
+        <uuid>SYSTEM_SYSRULES_FOLDER_a-0001d5f7-5ffc-8000-5ffc-0f00000f0000_103</uuid>
+        <description>Dynamic UIs Validation Rules</description>
+        <parentUuid>SYSTEM_SYSRULES_FOLDER_INTERNAL</parentUuid>
         <visibility>
             <advertise>false</advertise>
             <hierarchy>true</hierarchy>
             <indexable>true</indexable>
             <quota>false</quota>
-            <searchable>true</searchable>
+            <searchable>false</searchable>
             <system>false</system>
             <unlogged>false</unlogged>
         </visibility>
@@ -41,4 +41,4 @@
             <groups/>
         </role>
     </roleMap>
-</contentHaul> 
+</contentHaul>
