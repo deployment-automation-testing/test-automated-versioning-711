@@ -1,81 +1,17 @@
-Success (10):
-datatype 2080 {https://gwt-grid.appianci.net/suite/types/}gwtpgPeople "{https://gwt-grid.appianci.net/suite/types/}gwtpgPeople"
-datatype 2084 {https://gwt-grid.appianci.net/suite/types/}gwtpgEmployee "{https://gwt-grid.appianci.net/suite/types/}gwtpgEmployee"
-datatype 2088 {https://gwt-grid.appianci.net/suite/types/}gwtpgTextVariations "{https://gwt-grid.appianci.net/suite/types/}gwtpgTextVariations"
-group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS "Application Users"
-content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 "No DDL"
-content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 "MYCONSTANT"
-content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 "Useful Random Stuff Generators"
-content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 "RandomDate"
-content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 "ONE_PASSWORD"
-application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 "No DDL - Add + Modify"
+Success (1):
+content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 "EXTRA_PATCH_OBJECT"
+
+Referenced precedents that were not exported (1):
+content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609
 
 Trace:
-2015-07-24 18:49:24.616 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Begin transport.
-2015-07-24 18:49:24.616 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Retrieving object data.
-2015-07-24 18:49:24.62 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 App associated objects: GlobalIdMap[datatype=[{https://gwt-grid.appianci.net/suite/types/}gwtpgEmployee, {https://gwt-grid.appianci.net/suite/types/}gwtpgTextVariations, {https://gwt-grid.appianci.net/suite/types/}gwtpgPeople],group=[SYSTEM_GROUP_ROLE_APPLICATION_USERS],content=[_a-0000db6d-fe6f-8000-fb7f-010000010000_1611, 0001d0c2-6913-8000-6913-73fb5173fb51, _a-0000d451-5c64-8000-ac7a-680000680000_1051, _a-0000db6d-fe6f-8000-fb7f-010000010000_1609, 0000d0c2-713f-8000-6913-73fb5173fb51]]
-2015-07-24 18:49:24.625 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Invalid associated objects: GlobalIdMap[]
-2015-07-24 18:49:24.625 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Adding valid associated objects to be exported: GlobalBindingMap[datatype={{https://gwt-grid.appianci.net/suite/types/}gwtpgEmployee=2084, {https://gwt-grid.appianci.net/suite/types/}gwtpgTextVariations=2088, {https://gwt-grid.appianci.net/suite/types/}gwtpgPeople=2080},group={SYSTEM_GROUP_ROLE_APPLICATION_USERS=5},content={_a-0000db6d-fe6f-8000-fb7f-010000010000_1611=2291, 0001d0c2-6913-8000-6913-73fb5173fb51=2293, _a-0000d451-5c64-8000-ac7a-680000680000_1051=2294, _a-0000db6d-fe6f-8000-fb7f-010000010000_1609=2278, 0000d0c2-713f-8000-6913-73fb5173fb51=2292}]
-2015-07-24 18:49:24.626 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Setting uuids of object references.
-2015-07-24 18:49:24.626 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Processing reference: Application.forum
-2015-07-24 18:49:24.626 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Processing reference: Application.parent
-2015-07-24 18:49:24.628 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@e6be7fd[
-  ContentRole[name=readers,inherit=false,allowForAll=false]
-  ContentRole[name=authors,inherit=false,allowForAll=false]
-  ContentRole[name=administrators,usernames=[Administrator],inherit=false,allowForAll=false]
-  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-  securityVector=129:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
-]
-2015-07-24 18:49:24.628 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.628 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.628 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Processing reference: ContentRole[name=administrators,usernames=[Administrator],inherit=false,allowForAll=false]
-2015-07-24 18:49:24.628 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.628 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.628 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.628 DEBUG datatype 2084 {https://gwt-grid.appianci.net/suite/types/}gwtpgEmployee Begin transport.
-2015-07-24 18:49:24.628 DEBUG datatype 2084 {https://gwt-grid.appianci.net/suite/types/}gwtpgEmployee Retrieving object data.
-2015-07-24 18:49:24.656 DEBUG datatype 2084 {https://gwt-grid.appianci.net/suite/types/}gwtpgEmployee Setting uuids of object references.
-2015-07-24 18:49:24.657 DEBUG datatype 2080 {https://gwt-grid.appianci.net/suite/types/}gwtpgPeople Begin transport.
-2015-07-24 18:49:24.657 DEBUG datatype 2080 {https://gwt-grid.appianci.net/suite/types/}gwtpgPeople Retrieving object data.
-2015-07-24 18:49:24.669 DEBUG datatype 2080 {https://gwt-grid.appianci.net/suite/types/}gwtpgPeople Setting uuids of object references.
-2015-07-24 18:49:24.67 DEBUG datatype 2080 {https://gwt-grid.appianci.net/suite/types/}gwtpgPeople Exporting binary resources.
-2015-07-24 18:49:24.67 DEBUG datatype 2080 {https://gwt-grid.appianci.net/suite/types/}gwtpgPeople Serializing object to XML.
-2015-07-24 18:49:24.671 DEBUG datatype 2080 {https://gwt-grid.appianci.net/suite/types/}gwtpgPeople Object transported.
-2015-07-24 18:49:24.671 DEBUG datatype 2084 {https://gwt-grid.appianci.net/suite/types/}gwtpgEmployee Exporting binary resources.
-2015-07-24 18:49:24.671 DEBUG datatype 2084 {https://gwt-grid.appianci.net/suite/types/}gwtpgEmployee Serializing object to XML.
-2015-07-24 18:49:24.671 DEBUG datatype 2084 {https://gwt-grid.appianci.net/suite/types/}gwtpgEmployee Object transported.
-2015-07-24 18:49:24.671 DEBUG datatype 2088 {https://gwt-grid.appianci.net/suite/types/}gwtpgTextVariations Begin transport.
-2015-07-24 18:49:24.671 DEBUG datatype 2088 {https://gwt-grid.appianci.net/suite/types/}gwtpgTextVariations Retrieving object data.
-2015-07-24 18:49:24.694 DEBUG datatype 2088 {https://gwt-grid.appianci.net/suite/types/}gwtpgTextVariations Setting uuids of object references.
-2015-07-24 18:49:24.695 DEBUG datatype 2088 {https://gwt-grid.appianci.net/suite/types/}gwtpgTextVariations Exporting binary resources.
-2015-07-24 18:49:24.695 DEBUG datatype 2088 {https://gwt-grid.appianci.net/suite/types/}gwtpgTextVariations Serializing object to XML.
-2015-07-24 18:49:24.695 DEBUG datatype 2088 {https://gwt-grid.appianci.net/suite/types/}gwtpgTextVariations Object transported.
-2015-07-24 18:49:24.697 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Begin transport.
-2015-07-24 18:49:24.697 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Retrieving object data.
-2015-07-24 18:49:24.704 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Setting uuids of object references.
-2015-07-24 18:49:24.704 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Processing reference: Role[name=<null>,usernames=[Administrator]]
-2015-07-24 18:49:24.705 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Processing reference: Group.groupTypeId
-2015-07-24 18:49:24.706 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Processing reference: Group.parentId
-2015-07-24 18:49:24.707 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Processing reference: Group.homePageId
-2015-07-24 18:49:24.707 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Processing reference: Role[name=<null>]
-2015-07-24 18:49:24.707 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Processing reference: Expression[entityTypeName=u,conditions={Condition[attributeName=userTypeName,operatorId=1,operatorName=equals,value=User]}]
-2015-07-24 18:49:24.707 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Exporting binary resources.
-2015-07-24 18:49:24.707 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Serializing object to XML.
-2015-07-24 18:49:24.708 DEBUG group 5 SYSTEM_GROUP_ROLE_APPLICATION_USERS Object transported.
-2015-07-24 18:49:24.709 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Begin transport.
-2015-07-24 18:49:24.709 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Retrieving object data.
-2015-07-24 18:49:24.718 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Setting uuids of object references.
-2015-07-24 18:49:24.718 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Processing reference: [Content:id=2279,versionId=-1,name=MYCONSTANT,description=Constant is over 90001,type=32,subtype=0,uuid=_a-0000db6d-fe6f-8000-fb7f-010000010000_1611,parent=2278,parentName=No DDL,parentType=2,log=2291,logName=MYCONSTANT,state=255,visibility=35,security=143,creator=Administrator,createdTimestamp=2015-07-24 18:49:18.0,updatedTimestamp=2015-07-24 18:49:18.0,size=0,lockedBy=,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, value=null, returnType=1},partition=3,partitionName=/usr/local/appian/ae/_admin/accdocs3]
-2015-07-24 18:49:24.718 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Processing reference: Constant.forum
-2015-07-24 18:49:24.719 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Processing reference: Constant.parent
-2015-07-24 18:49:24.721 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Begin transport.
-2015-07-24 18:49:24.721 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Retrieving object data.
-2015-07-24 18:49:24.73 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Setting uuids of object references.
-2015-07-24 18:49:24.73 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Processing reference: RulesFolder.forum
-2015-07-24 18:49:24.731 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Processing reference: RulesFolder.parent
-2015-07-24 18:49:24.733 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@7a4a7b1a[
+2015-07-24 18:56:38.865 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Begin transport.
+2015-07-24 18:56:38.865 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Retrieving object data.
+2015-07-24 18:56:38.872 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Setting uuids of object references.
+2015-07-24 18:56:38.872 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: [Content:id=2321,versionId=-1,name=EXTRA_PATCH_OBJECT,description=,type=32,subtype=0,uuid=_a-0000db6e-fe7e-8000-23cd-010000010000_3645,parent=2278,parentName=No DDL,parentType=2,log=2321,logName=EXTRA_PATCH_OBJECT,state=255,visibility=35,security=143,creator=Administrator,createdTimestamp=2015-07-24 18:54:09.0,updatedTimestamp=2015-07-24 18:54:09.0,size=0,lockedBy=,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, value=The rain in spain..., returnType=3},partition=3,partitionName=/usr/local/appian/ae/_admin/accdocs3]
+2015-07-24 18:56:38.873 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: Constant.forum
+2015-07-24 18:56:38.873 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: Constant.parent
+2015-07-24 18:56:38.875 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@7cf53f18[
   ContentRole[name=readers,inherit=true,allowForAll=false]
   ContentRole[name=authors,inherit=true,allowForAll=false]
   ContentRole[name=administrators,usernames=[Administrator],inherit=true,allowForAll=false]
@@ -84,104 +20,12 @@ Trace:
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
   securityVector=143:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2015-07-24 18:49:24.733 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.733 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.733 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Processing reference: ContentRole[name=administrators,usernames=[Administrator],inherit=true,allowForAll=false]
-2015-07-24 18:49:24.734 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.734 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.734 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.734 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Exporting binary resources.
-2015-07-24 18:49:24.734 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Serializing object to XML.
-2015-07-24 18:49:24.734 DEBUG content 2278 _a-0000db6d-fe6f-8000-fb7f-010000010000_1609 Object transported.
-2015-07-24 18:49:24.735 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@2bd80f33[
-  ContentRole[name=readers,inherit=true,allowForAll=false]
-  ContentRole[name=authors,inherit=true,allowForAll=false]
-  ContentRole[name=administrators,usernames=[Administrator],inherit=true,allowForAll=false]
-  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-  securityVector=143:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
-]
-2015-07-24 18:49:24.735 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.735 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.735 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Processing reference: ContentRole[name=administrators,usernames=[Administrator],inherit=true,allowForAll=false]
-2015-07-24 18:49:24.736 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.736 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.736 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.736 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Exporting binary resources.
-2015-07-24 18:49:24.736 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Serializing object to XML.
-2015-07-24 18:49:24.738 DEBUG content 2291 _a-0000db6d-fe6f-8000-fb7f-010000010000_1611 Object transported.
-2015-07-24 18:49:24.738 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Begin transport.
-2015-07-24 18:49:24.738 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Retrieving object data.
-2015-07-24 18:49:24.746 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Setting uuids of object references.
-2015-07-24 18:49:24.747 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Processing reference: [Content:id=2293,versionId=-1,name=RandomDate,description=,type=32,subtype=1,uuid=0001d0c2-6913-8000-6913-73fb5173fb51,parent=2292,parentName=Useful Random Stuff Generators,parentType=2,log=2293,logName=RandomDate,state=255,visibility=35,security=15,creator=Administrator,createdTimestamp=2015-07-24 18:49:18.0,updatedTimestamp=2015-07-24 18:49:18.0,size=0,lockedBy=,changesRequireApproval=false,attributes={dep_rules=[Ljava.lang.Long;@6fcc7502, system=0, preferredEditor=legacy, hidden=0, offlineEnabled=false, ruletype=1, dep_functions=[Ljava.lang.String;@5cb2c68b, definition==date(rand()*1000+1500, rand()*10+1, rand()*15+1), dep_types=[Ljava.lang.String;@9e29c7e, parameters=[Lcom.appiancorp.suiteapi.process.TypedVariable;@54612c1d, dep_variables=[[Ljava.lang.String;@580937f6},partition=2,partitionName=/usr/local/appian/ae/_admin/accdocs2]
-2015-07-24 18:49:24.749 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Processing reference: FreeformRule.forum
-2015-07-24 18:49:24.75 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Processing reference: FreeformRule.parent
-2015-07-24 18:49:24.752 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Begin transport.
-2015-07-24 18:49:24.752 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Retrieving object data.
-2015-07-24 18:49:24.76 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Setting uuids of object references.
-2015-07-24 18:49:24.76 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Processing reference: RulesFolder.forum
-2015-07-24 18:49:24.76 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Processing reference: RulesFolder.parent
-2015-07-24 18:49:24.762 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@13724f7[
-  ContentRole[name=readers,inherit=true,allowForAll=false]
-  ContentRole[name=authors,inherit=true,allowForAll=false]
-  ContentRole[name=administrators,inherit=true,allowForAll=false]
-  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
-]
-2015-07-24 18:49:24.762 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.762 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.762 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.762 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.762 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.762 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.763 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Exporting binary resources.
-2015-07-24 18:49:24.763 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Serializing object to XML.
-2015-07-24 18:49:24.763 DEBUG content 2292 0000d0c2-713f-8000-6913-73fb5173fb51 Object transported.
-2015-07-24 18:49:24.763 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@21390618[
-  ContentRole[name=readers,inherit=true,allowForAll=false]
-  ContentRole[name=authors,inherit=true,allowForAll=false]
-  ContentRole[name=administrators,inherit=true,allowForAll=false]
-  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
-]
-2015-07-24 18:49:24.763 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.763 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.763 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.763 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.763 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.763 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.763 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Exporting binary resources.
-2015-07-24 18:49:24.763 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Serializing object to XML.
-2015-07-24 18:49:24.764 DEBUG content 2293 0001d0c2-6913-8000-6913-73fb5173fb51 Object transported.
-2015-07-24 18:49:24.764 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Begin transport.
-2015-07-24 18:49:24.764 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Retrieving object data.
-2015-07-24 18:49:24.772 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Setting uuids of object references.
-2015-07-24 18:49:24.772 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Processing reference: [Content:id=2294,versionId=-1,name=ONE_PASSWORD,description=Universal password for all users. Randomly generated upon import.,type=32,subtype=0,uuid=_a-0000d451-5c64-8000-ac7a-680000680000_1051,parent=2292,parentName=Useful Random Stuff Generators,parentType=2,log=2294,logName=ONE_PASSWORD,state=255,visibility=35,security=15,creator=Administrator,createdTimestamp=2015-07-24 18:49:18.0,updatedTimestamp=2015-07-24 18:49:18.0,size=0,lockedBy=,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, value=a, returnType=3},partition=3,partitionName=/usr/local/appian/ae/_admin/accdocs3]
-2015-07-24 18:49:24.772 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Processing reference: Constant.forum
-2015-07-24 18:49:24.772 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Processing reference: Constant.parent
-2015-07-24 18:49:24.774 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@5d2bb766[
-  ContentRole[name=readers,inherit=true,allowForAll=false]
-  ContentRole[name=authors,inherit=true,allowForAll=false]
-  ContentRole[name=administrators,inherit=true,allowForAll=false]
-  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
-]
-2015-07-24 18:49:24.774 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.774 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.774 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2015-07-24 18:49:24.774 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.774 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.774 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2015-07-24 18:49:24.774 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Exporting binary resources.
-2015-07-24 18:49:24.774 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Serializing object to XML.
-2015-07-24 18:49:24.777 DEBUG content 2294 _a-0000d451-5c64-8000-ac7a-680000680000_1051 Object transported.
-2015-07-24 18:49:24.777 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Exporting binary resources.
-2015-07-24 18:49:24.777 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Serializing object to XML.
-2015-07-24 18:49:24.778 DEBUG application 2295 _a-0000db6d-fe6f-8000-fb7f-010000010000_1616 Object transported.
+2015-07-24 18:56:38.875 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2015-07-24 18:56:38.875 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2015-07-24 18:56:38.875 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: ContentRole[name=administrators,usernames=[Administrator],inherit=true,allowForAll=false]
+2015-07-24 18:56:38.876 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2015-07-24 18:56:38.876 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2015-07-24 18:56:38.876 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2015-07-24 18:56:38.876 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Exporting binary resources.
+2015-07-24 18:56:38.876 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Serializing object to XML.
+2015-07-24 18:56:38.879 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Object transported.
