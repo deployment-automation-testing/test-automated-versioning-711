@@ -28,4 +28,4 @@ Trace:
 2015-07-24 18:56:38.876 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
 2015-07-24 18:56:38.876 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Exporting binary resources.
 2015-07-24 18:56:38.876 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Serializing object to XML.
-2015-07-24 18:56:38.879 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Object transported.
+2015-07-24 18:56:38.879 DEBUG content 2321 _a-0000db6e-fe7e-8000-23cd-010000010000_3645 Object transported. 

@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <application>
         <name>Test Application - No DDL</name>
         <uuid>_a-0000db6d-fe6f-8000-fb7f-010000010000_1608</uuid>
-        <description></description>
+        <description/>
         <parentUuid>SYSTEM_APPLICATIONS_ROOT</parentUuid>
         <visibility>
             <advertise>false</advertise>
@@ -63,6 +62,7 @@
                         <uuid>_a-0000d516-ce42-8000-11d1-010000010000_542</uuid>
                         <uuid>_a-0000d724-ee0d-8000-e7b0-010000010000_1079</uuid>
                         <uuid>_a-0000d6fd-7cb9-8000-7886-010000010000_951</uuid>
+                    <uuid>_a-0000db6e-fe7e-8000-23cd-010000010000_3645</uuid>
                     </uuids>
                 </item>
                 <item>
